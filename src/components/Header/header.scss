@@ -1,0 +1,108 @@
+.header {
+    width: 100%;
+    .container-top-left {
+        display: flex;
+    }
+    h3 {
+        color: #ff5900;
+        font-weight: 200;
+        font-size: 32px;
+        span {
+            font-weight: 600;
+            color: #f2f3f6;
+        }
+    }
+}
+
+.header, nav {
+    background-color: #171735;
+    padding: 20px 0px;
+}
+
+.bar {
+    width: 30px;
+    border-radius: 5px;
+    height: 3px;
+    background-color: #f2f3f6; /* Adjust color as needed */
+    margin: 4px 0; /* Adjust spacing between bars as needed */
+}
+
+.container-top-left {
+    a {
+        text-decoration: none;
+    }
+}
+
+.hamburger {
+    padding: 0px 10px;
+}
+
+#hamburger-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#hamburger-icon:hover {
+    cursor: pointer;
+}
+
+#nav {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%);
+    a {
+        color: #FFFFFF;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 10px 20px;
+        font-size: 24px;
+    }
+}
+
+.underline-home {
+    height: 2px;
+    width: 70px;
+    margin: 10px 20px;
+    background-color: #ff5900;
+    clip-path: polygon(50% 0%, 50% 0%, 50% 100%, 50% 100%);
+    transition: clip-path 0.3s ease; 
+    border-radius: 2px;
+}
+
+.home-link-hover:hover .underline-home {
+       clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.underline-about {
+    height: 2px;
+    width: 80px;
+    margin: 10px 20px;
+    background-color: #ff5900;
+    clip-path: polygon(50% 0%, 50% 0%, 50% 100%, 50% 100%);
+    transition: clip-path 0.3s ease;
+    border-radius: 2px;
+}
+
+.about-link-hover:hover .underline-about {
+       clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.underline-animate {
+    height: 2px;
+    width: 100px;
+    margin: 10px 20px;
+    background-color: #ff5900;
+    clip-path: polygon(50% 0%, 50% 0%, 50% 100%, 50% 100%);
+    transition: clip-path 0.3s ease; 
+    border-radius: 2px;
+}
+
+.animate-link-hover:hover .underline-animate {
+       clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+

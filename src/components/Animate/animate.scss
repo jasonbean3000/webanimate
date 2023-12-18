@@ -1,0 +1,30 @@
+.animate {
+    padding-top: 200px;
+    h1 {
+        font-style: italic;
+        opacity: .5;
+        font-size: 84px;
+    }
+    .parallax {
+        display: flex;
+    }
+    .parallax-right,  .parallax-left {
+        width: 50%;
+
+    }
+    .parallax-left {
+        text-align: right;
+    }
+    .parallax-right {
+        display: flex;
+        align-items: center;
+        p {
+            width: 300px;
+        }
+    }
+    .spacer {
+        height: 1000px
+    }
+
+}
+
