@@ -34,7 +34,7 @@
 }
 
 .hamburger {
-    padding: 0px 10px;
+    padding: 0px 20px 0px 50px;
 }
 
 #hamburger-icon {
@@ -58,7 +58,7 @@
         color: #FFFFFF;
         text-decoration: none;
         text-transform: uppercase;
-        padding: 10px 20px;
+        padding: 10px 50px;
         font-size: 24px;
     }
 }
@@ -66,7 +66,7 @@
 .underline-home {
     height: 2px;
     width: 70px;
-    margin: 10px 20px;
+    margin: 10px 50px;
     background-color: #ff5900;
     clip-path: polygon(50% 0%, 50% 0%, 50% 100%, 50% 100%);
     transition: clip-path 0.3s ease; 
@@ -80,7 +80,7 @@
 .underline-about {
     height: 2px;
     width: 80px;
-    margin: 10px 20px;
+    margin: 10px 50px;
     background-color: #ff5900;
     clip-path: polygon(50% 0%, 50% 0%, 50% 100%, 50% 100%);
     transition: clip-path 0.3s ease;
@@ -94,7 +94,7 @@
 .underline-animate {
     height: 2px;
     width: 100px;
-    margin: 10px 20px;
+    margin: 10px 50px;
     background-color: #ff5900;
     clip-path: polygon(50% 0%, 50% 0%, 50% 100%, 50% 100%);
     transition: clip-path 0.3s ease; 

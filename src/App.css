@@ -1,9 +1,9 @@
 html, .App {
-    background-color:  #e5e5eb;
+    background-color:  #f7f7f7;
 }
 
 .body-background {
-    background: linear-gradient(to bottom, #171735, #e5e5eb);
+    background: linear-gradient(to bottom, #171735, #1c1c8b);
 }
 
 .body-text-color {
