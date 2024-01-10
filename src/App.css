@@ -7,16 +7,22 @@ html, .App {
 }
 
 .body-text-color {
-    color: #171735;
+    color: #000000;
 }
 
 h3, h2, p {
     margin: 0;
     font-family: 'Exo 2';
-    color: #171735;
+    color: #07070f;
+}
+
+p {
+    font-size: 1.25rem;
 }
 
 a {
     font-family: 'Work Sans';
 }
+
+
 

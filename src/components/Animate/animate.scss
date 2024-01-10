@@ -1,30 +1,68 @@
 .animate {
-    padding-top: 200px;
+    height: 3000px;
+    padding: 75px 0 0 0;
     h1 {
         font-style: italic;
-        opacity: .5;
+        opacity: .25;
         font-size: 84px;
     }
-    .parallax {
-        display: flex;
-    }
-    .parallax-right,  .parallax-left {
-        width: 50%;
-
-    }
-    .parallax-left {
-        text-align: right;
-    }
-    .parallax-right {
-        display: flex;
-        align-items: center;
-        p {
-            width: 300px;
+    .div-1 {
+        transform: translateX(-100px);
+        opacity: 0;
+        padding: 0px 50px;
+        img {
+            height: 667px;
+            width: 1000px;
         }
     }
-    .spacer {
-        height: 1000px
+    .div-2 {
+        transform: translateX(100px);
+        opacity: 0;
+        padding: 0px 50px 0px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        h2 {
+            opacity: .85;
+            font-style: italic;
+            margin: 0px 0px 25px 0px;
+        }
     }
-
+    .div-4 {
+        transform: translateX(100px);
+        opacity: 0;
+        padding: 0px 50px;
+        img {
+            height: 667px;
+            width: 1000px;
+        }
+    }
+    .div-3 {
+        transform: translateX(-100px);
+        opacity: 0;
+        padding: 0px 0px 0px 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        h2 {
+            opacity: .85;
+            font-style: italic;
+            margin: 0px 0px 25px 0px;
+        }
+    }
+    .scroll-animate-title {
+        width: 100%;
+        text-align: center;
+        margin: 200px 0;
+    }
+    .animated-div-container-1 {
+        display: flex;
+    }
+    .animated-div-container-2 {
+        display: flex;
+        margin: 200px 0 0 0;
+    }
 }
+
+
 
